@@ -1,0 +1,225 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Delightful Flowers</title>
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet"
+      />
+      <script defer src="./js/scripts.js"></script>
+    </head>
+    <body>
+      <!-- HEADER -->
+      <header id="home" class="header">
+        <div class="header__fixed">
+          <div class="container">
+            <div class="header__inner">
+              <div class="header__burger">
+                <input id="burger" type="checkbox" />
+                <label class="burger__btn" for="burger">
+                  <span></span>
+                </label>
+                <ul class="burger__list">
+                  <li><a class="burger__item" href="#about">About</a></li>
+                  <li><a class="burger__item" href="#team">Our team</a></li>
+                  <li><a class="burger__item" href="#flowers">Flowers</a></li>
+                </ul>
+              </div>
+              <a href="#home" class="header__logo">
+                Delightful Flowers
+              </a>
+              <nav class="header__nav">
+                <ul class="nav__list" id="js-menu">
+                  <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#team" class="nav__link">Our team</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#flowers" class="nav__link">Flowers</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="#contact" class="header__button">Contact</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <h1 class="visually-hidden">Delightful Flowers</h1>
+        <!-- SECTION BANNER-->
+        <section class="banner">
+          <div class="banner__background"></div>
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="banner__inner">
+              <p class="banner__slogan">Delightful Flowers Team</p>
+              <h2 class="banner__title">Delightful Flowers</h2>
+              <p class="banner__text">Our flowers are the best</p>
+              <div class="banner__img">
+                <img src="./img/flower.png" alt="Flower" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION ABOUT -->
+        <section class="about" id="about">
+          <h2 class="about__title">About</h2>
+          <div class="about__inner">
+            <div class="about__img">
+              <ul class="about__list">
+                <li class="about__item">- 200 greenhouses</li>
+                <li class="about__item">- 25 podiums</li>
+                <li class="about__item">- 60 gardeners</li>
+              </ul>
+            </div>
+            <div class="about__text">
+              <p>
+                We are the company that passioned about flowers.
+              </p>
+              <p>
+                We are proud and want to share our colorful moments with you.
+                We hope to meet you one day in real life or via Instagram.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION team -->
+        <section class="team" id="team">
+          <div class="team__style">
+            <h2 class="team__title">Team</h2>
+            <div class="team__after"></div>
+          </div>
+
+          <ul class="team__list">
+            <li class="team__item">
+              <div class="team__photo">
+                <img
+                src="./img/team-2.jpg"
+                alt="Javan Tulip"
+                class="team__img"/>
+              </div>
+
+              <div class="team__info">
+                <div class="team__header">
+                  <p class="team__name">Javan Tulip</p>
+                </div>
+
+                <div class="team__footer">
+                  <ul class="gardener__list">
+                    <li class="gardener__item">Certificates: <span>122</span></li>
+                    <li class="gardener__item">Experience: <span>9</span></li>
+                    <li class="gardener__item">Awards: <span>15</span></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="team__item">
+              <div class="team__photo">
+                <img
+                src="./img/team-1.jpg"
+                alt="Joanna Rose"
+                class="team__img"/>
+              </div>
+
+              <div class="team__info">
+                <div class="team__header">
+                  <p class="team__name">Joanna Rose</p>
+                </div>
+
+                <div class="team__footer">
+                  <ul class="gardener__list">
+                    <li class="gardener__item">Certificates: <span>46</span></li>
+                    <li class="gardener__item">Experience:  <span>5</span></li>
+                    <li class="gardener__item">Awards: <span>4</span></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- SECTION flowers -->
+        <section class="flowers" id="flowers">
+          <div class="flowers__style">
+            <h2 class="flowers__title">Flowers</h2>
+            <div class="flowers__after"></div>
+          </div>
+
+          <ul class="flowers__list">
+            <li class="flower__item">
+                <div class="flower__info">
+                  <ul class="flower__descr">
+                    <li class="descr__item">Our first year : 2016</li>
+                    <li class="descr__item">Amount of clients : 7000</li>
+                    <li class="descr__item">Certificates: 500</li>
+                </ul>
+                <img src="./img/garden.jpg" class="flower__img" alt="Garden">
+                  <ul class="flower__profile">
+                    <li class="profile__item">
+                      Total area is 23 hectares
+                    </li>
+                  </ul>
+                </img>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- FOOTER  -->
+      <footer class="footer">
+        <div class="overlay"></div>
+        <div class="footer__text">
+          <a href="#" class="footer__logo">
+            Delightful Flowers
+          </a>
+          <p class="footer__slogan">
+            We are proud and want to share our colorful moments with you. We hope to meet you one day in real life or via Instagram.
+          </p>
+        </div>
+
+        <nav class="footer__inner">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li class="footer__item">
+              <a href="#team" class="footer__link">Our team</a>
+            </li>
+            <li class="footer__item">
+              <a href="#flowers" class="footer__link">Flowers</a>
+            </li>
+          </ul>
+        </nav>
+        <form id="contact" action="#" class="footer__form">
+          <label for="email"></label>
+          <input
+            class="footer__input"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email"
+          />
+          <label for="message"></label>
+          <textarea
+            class="footer__message"
+            id="message"
+            name="message"
+            placeholder="Message"
+            rows="5"
+          ></textarea>
+          <button class="footer__button">Contact</button>
+        </form>
+      </footer>
+    </body>
+  </html>
