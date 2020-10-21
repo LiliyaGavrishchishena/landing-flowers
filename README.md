@@ -1,5 +1,7 @@
 ## Flowers
 
+The project is available [here](https://liliyagavrishchishena.github.io/landing-flowers/)
+
 ## About project
 
 1. Semantic html5
