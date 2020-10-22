@@ -631,7 +631,7 @@ input[type='radio'].visually-hidden {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -719,11 +719,6 @@ input[type='radio'].visually-hidden {
     margin-top: 16px;
     position: absolute;
     top: -25px;
-  }
-
-  .team__img {
-    width: 626px;
-    height: 452px;
   }
 
   .team__info {
