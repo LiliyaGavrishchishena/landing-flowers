@@ -429,10 +429,6 @@ input[type='radio'].visually-hidden {
   padding-left: 16px;
 }
 
-.banner__img img {
-  width: 212px;
-}
-
 @media (min-width: 768px) {
   .banner__background {
     height: 245px;
@@ -612,13 +608,6 @@ input[type='radio'].visually-hidden {
   border-bottom: 3px solid #a369cf;
 }
 
-.team__position {
-  font-weight: 600;
-  font-size: 14px;
-  font-style: italic;
-  padding-right: 16px;
-}
-
 .team:after {
   content: '';
   display: block;
@@ -647,7 +636,6 @@ input[type='radio'].visually-hidden {
 }
 
 .team__img {
-  width: 626px;
   margin-bottom: 25px;
 }
 
